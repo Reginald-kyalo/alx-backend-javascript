@@ -4,7 +4,7 @@
  * @author Reginald Kyalo <https://github.com/Reginald-kyalo>
  */
 const displayMessage = (msg) => {
-    console.log(msg);
-  };
-  
-  module.exports = displayMessage;
+  console.log(msg);
+};
+
+module.exports = displayMessage;

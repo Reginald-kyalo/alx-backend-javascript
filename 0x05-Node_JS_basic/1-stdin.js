@@ -1,6 +1,6 @@
 #!/usr/bin/node
-welcomeMessage = 'Welcome to Holberton School, what is your name?'
-console.log(welcomeMessage)
+const welcomeMessage = 'Welcome to Holberton School, what is your name?';
+console.log(welcomeMessage);
 
 process.stdin.on('readable', () => {
   const chunk = process.stdin.read();
